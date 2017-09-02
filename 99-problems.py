@@ -31,3 +31,11 @@ def my_sixth(alist):
 ...     return final_list
 
 # p7
+def my_seventh(alist):
+...     final = []
+...     for i in alist:
+...         if isinstance(i,list):
+...             final.extend(my_seventh(i))
+...         else:
+...             final.append(i)
+...     return final
