@@ -23,3 +23,11 @@ def my_reverse(alist):
     for element in alist:
         result_list.insert(0, element)
     return result_list
+# P6
+def my_sixth(alist):
+...     final_list = []
+...     for element in alist:
+...         final_list.insert(0,element)
+...     return final_list
+
+# p7
